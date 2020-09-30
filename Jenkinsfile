@@ -28,9 +28,9 @@ stages{
                       }
                 }
         
-        stage('Deploy App'){
+        stage('Runs Containers'){
                 steps{
-                        sh "docker-compose pull && docker-compose up -d"
+                        sh "sudo docker-compose pull && docker-compose up -d"
                 }
              }
         }
