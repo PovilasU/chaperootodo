@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   chaperoo-frontend:
-    image: povilasu/chaperoo-frontend
+    image: povilas/chaperoo-frontend
     build: .
     ports:
       - target: 81
