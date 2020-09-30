@@ -4,8 +4,8 @@ services:
     image: povilasu/chaperoo-frontend
     build: .
     ports:
-      - target: 80
-        published: 80
+      - target: 81
+        published: 81
     depends_on:
       - chaperoo-service    
   chaperoo-service: 
