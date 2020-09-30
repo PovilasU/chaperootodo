@@ -1,7 +1,7 @@
 version: "3.7"
 services:
-  chaperoo-client:
-    image: jordangrindrod/chaperoo-client
+  chaperoo-frontend:
+    image: povilasu/chaperoo-frontend
     build: .
     ports:
       - target: 80
